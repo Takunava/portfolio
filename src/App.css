@@ -12,18 +12,43 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.Title {
+  font-family: "Roboto Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #D55151;
+}
+.Menu-item {
+  display: flex;
+  justify-content: space-around;
+}
+.Item {
+  font-family: "Roboto Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #D55151;
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFFAEC;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
