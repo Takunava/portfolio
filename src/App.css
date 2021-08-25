@@ -12,31 +12,56 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.Title {
-  font-family: "Roboto Light";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
+.Title-name {
+  font-family: 'Poppins-Light';
+  font-weight: 400;
+  font-size: 5vmin;
   line-height: 19px;
   display: flex;
   align-items: center;
+  position: absolute;
 
-  color: #D55151;
+  color: #BC0000;
+}
+.Title-surname {
+  font-family: 'Poppins-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 5vmin;
+  line-height: 19px;
+  display: flex;
+  left: 30vmin;
+  align-items: center;
+  position: absolute;
+
+  color: #FFFAEC;
 }
 .Menu-item {
   display: flex;
   justify-content: space-around;
+  min-width: 80vmin;
 }
 .Item {
-  font-family: "Roboto Light";
+  font-family: 'Poppins-Light';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 5vmin;
   line-height: 19px;
   display: flex;
   align-items: center;
 
-  color: #D55151;
+  color: #BC0000;
+}
+.Container-Red {
+  position: absolute;
+  min-width: 62vmin;
+  min-height: 68vmin;
+  display: flex;
+  left: 32vmin;
+  top: 0px;
+
+  background: #BC0000;
+  border-radius: 0vmin 0vmin 50vmin 50vmin;
 }
 
 .App-header {
